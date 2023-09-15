@@ -1,11 +1,11 @@
 import '../App.scss';
 import { useNavigate } from "react-router-dom";
-import Dice from '../images/DiceGame.PNG'; 
-import MachineAgents from '../images/MachineAgents.PNG'; 
-import Slider from '../images/Slider.PNG'; 
-import Task from '../images/Task.PNG'; 
-import Vue from '../images/Vue.PNG'; 
-import Friends from '../images/Friends.PNG'; 
+import Dice from '../images/DiceGame.png'; 
+import MachineAgents from '../images/MachineAgents.png'; 
+import Slider from '../images/Slider.png'; 
+import Task from '../images/Task.png'; 
+import Vue from '../images/Vue.png'; 
+import Friends from '../images/Friends.png'; 
 import { RiArrowLeftCircleFill } from "react-icons/ri";
 import project from '../models/project';
 
@@ -28,9 +28,9 @@ function Projects() {
 
   let content = projects.map(project =>{
       return (    
-      <ion-col size="4">
+      <ion-col size="4" key={project.projectTitle}>
           <a href={project.projectLink}>
-            <ion-card color="dark" class="card" key={project.projectTitle}>
+            <ion-card color="dark" class="card">
                 <div class="imageZoom">
                     <img src={project.projectImagePath}/> 
                 </div>

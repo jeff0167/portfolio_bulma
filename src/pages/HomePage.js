@@ -14,30 +14,30 @@ function HomePage() {  // shift + alt + f  to format
 
   return (
       <div>
-        <code class="code">My portfolio</code>
-        <div class="container">
+        <code className="code">My portfolio</code>
+        <div className="container">
             <ion-grid>
                 <ion-row>
                     <ion-col size="4">
                         <ion-card color="dark" class="card" onClick={()=> navigate("about")} >
-                            <div class="imageZoom">
-                                <img alt="Portrait" src={portrait} class="cardImage"/>
+                            <div className="imageZoom">
+                                <img alt="Portrait" src={portrait} className="cardImage"/>
                                 <ion-card-content>About me</ion-card-content>
                             </div>
                         </ion-card>
                     </ion-col>
                     <ion-col size="4">
                         <ion-card color="dark" class="card" onClick={()=> navigate("projects")}>
-                            <div class="imageZoom">
-                                <img alt="Portrait" src={project} class="cardImage"/>
+                            <div className="imageZoom">
+                                <img alt="Portrait" src={project} className="cardImage"/>
                                 <ion-card-content>Projects</ion-card-content>
                             </div>
                         </ion-card>
                     </ion-col>
                     <ion-col size="4">
                         <ion-card color="dark" class="card">
-                            <div class="imageZoom">
-                                <img alt="Portrait" src={other} class="cardImage"/>
+                            <div className="imageZoom">
+                                <img alt="Portrait" src={other} className="cardImage"/>
                                 <ion-card-content>Other</ion-card-content>
                             </div>
                         </ion-card>
