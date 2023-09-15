@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_bulma/static/css/main.d9689e46.css",
-    "main.js": "/portfolio_bulma/static/js/main.b842d5e0.js",
+    "main.js": "/portfolio_bulma/static/js/main.29ab96a3.js",
     "static/js/443.1424430f.chunk.js": "/portfolio_bulma/static/js/443.1424430f.chunk.js",
     "static/js/738.6dc5be3b.chunk.js": "/portfolio_bulma/static/js/738.6dc5be3b.chunk.js",
     "static/js/466.8154ee60.chunk.js": "/portfolio_bulma/static/js/466.8154ee60.chunk.js",
@@ -20,7 +20,7 @@
     "static/media/Vue.png": "/portfolio_bulma/static/media/Vue.1602d835e87c7f0583fb.png",
     "index.html": "/portfolio_bulma/index.html",
     "main.d9689e46.css.map": "/portfolio_bulma/static/css/main.d9689e46.css.map",
-    "main.b842d5e0.js.map": "/portfolio_bulma/static/js/main.b842d5e0.js.map",
+    "main.29ab96a3.js.map": "/portfolio_bulma/static/js/main.29ab96a3.js.map",
     "443.1424430f.chunk.js.map": "/portfolio_bulma/static/js/443.1424430f.chunk.js.map",
     "738.6dc5be3b.chunk.js.map": "/portfolio_bulma/static/js/738.6dc5be3b.chunk.js.map",
     "466.8154ee60.chunk.js.map": "/portfolio_bulma/static/js/466.8154ee60.chunk.js.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.d9689e46.css",
-    "static/js/main.b842d5e0.js"
+    "static/js/main.29ab96a3.js"
   ]
 }
