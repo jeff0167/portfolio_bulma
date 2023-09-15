@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/portfolio_bulma/static/css/main.d9689e46.css",
-    "main.js": "/portfolio_bulma/static/js/main.8ae7fc49.js",
+    "main.js": "/portfolio_bulma/static/js/main.b842d5e0.js",
     "static/js/443.1424430f.chunk.js": "/portfolio_bulma/static/js/443.1424430f.chunk.js",
     "static/js/738.6dc5be3b.chunk.js": "/portfolio_bulma/static/js/738.6dc5be3b.chunk.js",
     "static/js/466.8154ee60.chunk.js": "/portfolio_bulma/static/js/466.8154ee60.chunk.js",
     "static/js/372.3b28fbaf.chunk.js": "/portfolio_bulma/static/js/372.3b28fbaf.chunk.js",
     "static/js/856.7f8c066b.chunk.js": "/portfolio_bulma/static/js/856.7f8c066b.chunk.js",
     "static/js/787.a92d0a74.chunk.js": "/portfolio_bulma/static/js/787.a92d0a74.chunk.js",
-    "static/media/DiceGame.PNG": "/portfolio_bulma/static/media/DiceGame.4ccff95812b1b8069b25.PNG",
-    "static/media/MachineAgents.PNG": "/portfolio_bulma/static/media/MachineAgents.873fbc12334e66f92677.PNG",
+    "static/media/DiceGame.png": "/portfolio_bulma/static/media/DiceGame.4ccff95812b1b8069b25.png",
+    "static/media/MachineAgents.png": "/portfolio_bulma/static/media/MachineAgents.873fbc12334e66f92677.png",
     "static/media/Portrait.jpg": "/portfolio_bulma/static/media/Portrait.18e26807c3d9600b5b9a.jpg",
     "static/media/Project.jpg": "/portfolio_bulma/static/media/Project.12ff38471da612e11e07.jpg",
     "static/media/Resume_opaque.png": "/portfolio_bulma/static/media/Resume_opaque.474841fd7e3e042a5457.png",
     "static/media/Rock2.jpg": "/portfolio_bulma/static/media/Rock2.1d991b8cd7fd3b8e713b.jpg",
-    "static/media/Task.PNG": "/portfolio_bulma/static/media/Task.e26b4146808e8dde406c.PNG",
-    "static/media/Friends.PNG": "/portfolio_bulma/static/media/Friends.6c76a7b43418cd138a5e.PNG",
-    "static/media/Slider.PNG": "/portfolio_bulma/static/media/Slider.5edd485c54b0e91a6959.PNG",
-    "static/media/Vue.PNG": "/portfolio_bulma/static/media/Vue.1602d835e87c7f0583fb.PNG",
+    "static/media/Task.png": "/portfolio_bulma/static/media/Task.e26b4146808e8dde406c.png",
+    "static/media/Friends.png": "/portfolio_bulma/static/media/Friends.6c76a7b43418cd138a5e.png",
+    "static/media/Slider.png": "/portfolio_bulma/static/media/Slider.5edd485c54b0e91a6959.png",
+    "static/media/Vue.png": "/portfolio_bulma/static/media/Vue.1602d835e87c7f0583fb.png",
     "index.html": "/portfolio_bulma/index.html",
     "main.d9689e46.css.map": "/portfolio_bulma/static/css/main.d9689e46.css.map",
-    "main.8ae7fc49.js.map": "/portfolio_bulma/static/js/main.8ae7fc49.js.map",
+    "main.b842d5e0.js.map": "/portfolio_bulma/static/js/main.b842d5e0.js.map",
     "443.1424430f.chunk.js.map": "/portfolio_bulma/static/js/443.1424430f.chunk.js.map",
     "738.6dc5be3b.chunk.js.map": "/portfolio_bulma/static/js/738.6dc5be3b.chunk.js.map",
     "466.8154ee60.chunk.js.map": "/portfolio_bulma/static/js/466.8154ee60.chunk.js.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.d9689e46.css",
-    "static/js/main.8ae7fc49.js"
+    "static/js/main.b842d5e0.js"
   ]
 }
