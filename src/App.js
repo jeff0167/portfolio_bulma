@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import '@ionic/react/css/core.css';
+import { setupIonicReact } from '@ionic/react';
+import HomePage from './pages/HomePage';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import About from './pages/About';
+import Projects from './pages/Projects.js';
 
-function App() {
+setupIonicReact();
+
+function App() {  // shift + alt + f  to format
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route path="portfolio_bulma" element={<HomePage></HomePage>}></Route>
+          <Route path="portfolio_bulma/about" element={<About></About>}></Route>
+          <Route path="portfolio_bulma/projects" element={<Projects></Projects>}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
