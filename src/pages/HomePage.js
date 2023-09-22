@@ -21,7 +21,7 @@ function HomePage() {  // shift + alt + f  to format
                     <ion-col size="4">
                         <ion-card color="dark" class="card" onClick={()=> navigate("about")} >
                             <div className="imageZoom">
-                                <img alt="Portrait" src={portrait} className="cardImage"/>
+                                <img alt="Portrait" src={portrait}/>
                                 <ion-card-content>About me</ion-card-content>
                             </div>
                         </ion-card>
@@ -29,7 +29,7 @@ function HomePage() {  // shift + alt + f  to format
                     <ion-col size="4">
                         <ion-card color="dark" class="card" onClick={()=> navigate("projects")}>
                             <div className="imageZoom">
-                                <img alt="Portrait" src={project} className="cardImage"/>
+                                <img alt="Portrait" src={project}/>
                                 <ion-card-content>Projects</ion-card-content>
                             </div>
                         </ion-card>
@@ -37,7 +37,7 @@ function HomePage() {  // shift + alt + f  to format
                     <ion-col size="4">
                         <ion-card color="dark" class="card">
                             <div className="imageZoom">
-                                <img alt="Portrait" src={other} className="cardImage"/>
+                                <img alt="Portrait" src={other}/>
                                 <ion-card-content>Other</ion-card-content>
                             </div>
                         </ion-card>
