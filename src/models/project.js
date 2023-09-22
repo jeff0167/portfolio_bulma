@@ -1,11 +1,13 @@
 export default class project{
-    projectTitle;
-    projectLink;
-    projectImagePath;
-  
-    constructor(title, link, image){
-      this.projectTitle = title;
-      this.projectLink = link;
-      this.projectImagePath = image;
-    }
+  projectTitle;
+  projectLink;
+  githubRepoLink;
+  projectImagePath;
+
+  constructor(title, link, githubRepoLink, image){
+    this.projectTitle = title;
+    this.projectLink = link;
+    this.githubRepoLink = githubRepoLink;
+    this.projectImagePath = image;
   }
+}
